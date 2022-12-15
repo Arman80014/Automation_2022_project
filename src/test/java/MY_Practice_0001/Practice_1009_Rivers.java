@@ -17,7 +17,7 @@ public class Practice_1009_Rivers {
         WebDriver driver = new ChromeDriver(options);
         driver.navigate().to("https://www.google.com");
 
-
+        driver.manage().deleteAllCookies();
 
 
 
